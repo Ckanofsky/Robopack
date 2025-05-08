@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Robopack",
+    "host": "raspberry",
+    "username": "raspberry",
+    "password": "pi"
+  }
+]
