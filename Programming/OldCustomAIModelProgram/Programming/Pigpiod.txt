@@ -1,0 +1,11 @@
+[Unit]
+Description=Pigpio daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/pigpiod -g
+ExecStop=/bin/kill -9 $MAINPID
+Type=forking
+
+[Install]
+WantedBy=multi-user.target
